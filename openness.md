@@ -1,3 +1,8 @@
+---
+layout: page
+title: Openness
+---
+
 Openness can occur in OASYS due to changes in three different key components: the set of agents that interact in the environment, the set of tasks those agents aim to accomplish, and the types of those agents (i.e., their capabilities). 
 
 # Agent Openness
