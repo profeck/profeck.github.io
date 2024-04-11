@@ -23,7 +23,7 @@ This project is a multi-institution collaboration led by [Prashant Doshi](https:
 
 More details about our research on OASYS can be found in:
 
-* Eck, A., Soh, L.-K., & Doshi, P. 2023. Decision Making in Open Multiagent Systems. AI Magazine. 44(4), 508-523. [[link]](https://onlinelibrary.wiley.com/doi/10.1002/aaai.12131) [[Video Abstract]](https://youtu.be/vQOK3YNeTDE)
+* Eck, A., Soh, L.-K., & Doshi, P. 2023. Decision Making in Open Multiagent Systems. AI Magazine. 44(4), 508-523. [[link]](https://onlinelibrary.wiley.com/doi/10.1002/aaai.12131)
 
 * Kakarlapudi, A., Anil, G., Eck, A., Doshi, P., & Soh, L.-K. 2022. Decision-Theoretic Planning with Communication in Open Multiagent Systems. Proceedings of the 2022 Conference on Uncertainty in Artificial Intelligence (UAI'22), Eindhoven, Netherlands, August 1-5, 2022 [[link]](https://proceedings.mlr.press/v180/kakarlapudi22a/kakarlapudi22a.pdf) [[Open Review with Appendices]](https://openreview.net/forum?id=H5LUOwUoql5)
 
