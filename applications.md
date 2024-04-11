@@ -1,3 +1,8 @@
+---
+layout: page
+title: Applications
+---
+
 To illustrate how the different types of openness in OASYS manifest, consider the following four real-world applications:
 
 # Robotic Wildfire Suppression
