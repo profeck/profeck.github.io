@@ -10,6 +10,8 @@ In this research, we address the challenges to multiagent decision making caused
 
 3. **type openness**, where the types (i.e., capabilities) of agents change over time.  This could include agents learning new skills and gaining new responsibilities (e.g., promotions of office workers) or robots losing abilities over time (e.g., modeling damage to robots engaged in the field).
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vQOK3YNeTDE?si=4NO0ZqwAb893tTxI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Project Details
 
 This project is a multi-institution collaboration led by [Prashant Doshi](https://thinc.cs.uga.edu) of the University of Georgia, [Leen-Kiat Soh](http://cse.unl.edu/~lksoh/) of the University of Nebraska-Lincoln, and [Adam Eck](https://cs.oberlin.edu/~aeck) of Oberlin College.  Our work has been supported by two collaborative grants from the National Science Foundation (add details).
