@@ -7,3 +7,5 @@ header_pages:
   - applications.md
   - methods.md
   - mosaei.md
+minima:
+  skin: dark
