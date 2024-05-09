@@ -15,6 +15,8 @@ Each agent has a limited amount of suppressant that it expends on a fire, so an 
 
 Additionally, this environment can exhibit **task openness** as new fires appear in previously calm areas, which introduces new tasks different from the current set of fires the agents aim to suppress.  Tasks can also disappear as previous areas of concern are mitigated or fires burn out of control.
 
+---
+
 # Cybersecurity Defense
 
 <img src="cybersecurity.png" class="rightimage">
@@ -27,6 +29,8 @@ In this environment, defender agents are tasked with cooperating with one anothe
 
 **Type openness** can also occur as attackers gain new capabilities and can infect more nodes deeper in the network or with greater ability to infect particular nodes, and defenders can also gain new abilities in patching vulnerabilities as new defense tools become available.
 
+---
+
 # Autonomous Ridesharing
 
 <img src="ridesharing.png" class="leftimage">
@@ -36,6 +40,8 @@ Agents controlling autonomous cars used for ridesharing are tasked with servicin
 Agents in the environment have access to information about their own locations on the grid and direction of travel, as well as some indication of the movements of other drivers.  They also know the pickup and drop locations of all waiting, accepted, and riding passengers.  However, new passengers (each representing a unique task) may appear at any time and drivers are unaware of their needs beforehand, leading to **task openness**.  For example, after a large entertainment event (e.g., a concert or sporting match), many passengers might need rides from similar pickup locations but with diverse drop off locations.  Or as evening starts, different numbers and types of passengers might need rides from many residential areas to restaurants and shops.  Thus, the set of tasks that drivers work to complete changes over time in both predictable and unpredictable ways, resulting in task openness.  Success for a driver as an agent in this domain requires anticipating which of the available passengers could other drivers pickup in order to decide which unattached passengers to try to pickup themselves, as well as where new passengers will appear in the near future to best position the driver to earn their fares.  
 
 Notably, changes in tasks (i.e., passengers in the system) also cause changes in the set of actions available to agents -- new locations become relevant with new passengers for pickup and dropoff, while other actions would no longer be meaningful as previously relevant tasks are completed and thus disappear.  This creates novel challenges to planning and learning; the majority of prior methods for closed environments assume fixed action sets.
+
+---
 
 # Large Organizations
 
