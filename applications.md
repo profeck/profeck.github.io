@@ -16,7 +16,7 @@ Each agent has a limited amount of suppressant that it expends on a fire, so an 
 Additionally, this environment can exhibit **task openness** as new fires appear in previously calm areas, which introduces new tasks different from the current set of fires the agents aim to suppress.  Tasks can also disappear as previous areas of concern are mitigated or fires burn out of control.
 
 <br/>
----
+<hr/>
 <br/>
 
 # Cybersecurity Defense
