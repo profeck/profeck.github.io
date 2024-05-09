@@ -15,7 +15,9 @@ Each agent has a limited amount of suppressant that it expends on a fire, so an 
 
 Additionally, this environment can exhibit **task openness** as new fires appear in previously calm areas, which introduces new tasks different from the current set of fires the agents aim to suppress.  Tasks can also disappear as previous areas of concern are mitigated or fires burn out of control.
 
+<br/>
 ---
+<br/>
 
 # Cybersecurity Defense
 
@@ -29,7 +31,9 @@ In this environment, defender agents are tasked with cooperating with one anothe
 
 **Type openness** can also occur as attackers gain new capabilities and can infect more nodes deeper in the network or with greater ability to infect particular nodes, and defenders can also gain new abilities in patching vulnerabilities as new defense tools become available.
 
+<br/>
 ---
+<br/>
 
 # Autonomous Ridesharing
 
@@ -41,7 +45,10 @@ Agents in the environment have access to information about their own locations o
 
 Notably, changes in tasks (i.e., passengers in the system) also cause changes in the set of actions available to agents -- new locations become relevant with new passengers for pickup and dropoff, while other actions would no longer be meaningful as previously relevant tasks are completed and thus disappear.  This creates novel challenges to planning and learning; the majority of prior methods for closed environments assume fixed action sets.
 
+<br/>
 ---
+<br/>
+
 
 # Large Organizations
 
