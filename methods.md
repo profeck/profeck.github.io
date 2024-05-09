@@ -13,7 +13,7 @@ To address the challenge of modeling **agent openness**, we describe an extensio
 
 Because the exact presence of other agents might not be directly observed by the planning agent (and instead may only be *partially observable*), the planning agent maintains (1) a stochastic process model of how the presence of each agent changes based on their actions, and (2) a Bayesian probabilistic belief about the presence of each other agent over time.  We proposed an accompanying offline planning algorithm based on PBVI but extended to open multiagent settings to enable agents to plan behaviors when their set of neighbors changes over time in ways critical for maintaining collaborative success.
 
-[Add text about RL solution]
+Because the transitions in neighbors presence states are often unknown *a priori*, we also developed a model-basd reinforcement learning solution where each agent learns Dirichlet stochastic process models of the changes to each neighbor's presence that can be used within a Bayesian inference framework for estimating changes to the composition of agents in the environment (including projecting to future time points).  Theoretical results establish the learning rate and convergence of the learning.  Moreover, experiments demonstrated that the predictive reasoning leads to better task accomplishment in the context of agent openness than the previously mentioned offline planning algorithm where the latter relied on a noisy estimate of the transition dynamics of neighbors' presence.
 
 <br/>
 <hr/>
@@ -43,7 +43,9 @@ To complement our selective neighbor modeling, we also developed the first onlin
 
 <img src="communication.png" style="display:block; margin-left:auto; margin-right:auto; width: 60%;">
 
-Description
+A critical challenge of addressing agent openness in OASYS is that the presence or absence of other agents in the environment is often **unobservable**. The sensing capabilities of agents tend to reveal observations about the \emph{environment state} and not quite the \emph{presence of other agents}.  Instead, changes to neighbors' presences must be inferred from observed deviations to the expected environment state. 
+
+To overcome this challenge, we developed a decision-theoretic approach to communication [(Kakarlapudi et al., 2022)](https://proceedings.mlr.press/v180/kakarlapudi22a/kakarlapudi22a.pdf).  Such reasoning enables agents to (1) decide when it is most appropriate to share information about their presence to influence the behaviors of other agents in a way that is favorable for the communicating agent (for instance, by influencing which fires others may choose to fight), illustrated in the figure above, and (2) receive an informative signal about the presence of other communicating agents to overcome the otherwise unobservability of their presence.  These decisions take into conderation both the costs of communicating (e.g., using limited network bandwidth and/or energy resources), as well as what is best for the communicating agent in cooperative, competitive, or self-interested environments.  Experimental results demonstrated *significantly improved coordination* between agents under openness due to the communication, as well as communication that flexibly reduces as communication costs increase.
 
 <br/>
 <hr/>
@@ -51,5 +53,5 @@ Description
 
 # Fully Online Planning through Nested MCTS
 
-Description
+We have also extended our I-POMCP planning algorithm [(Eck et al., 2020)](https://aaai.org/ojs/index.php/AAAI/article/view/6200) to enable **fully online planning** where each agent starts with no *a priori* calculated plans for neighbors, but instead much also estimate their plans in real-time as it decides its own best actions [(Kakarlapudi et al., 2022)](https://proceedings.mlr.press/v180/kakarlapudi22a/kakarlapudi22a.pdf).  This is not only highly beneficial in OASYS where it is often unlikely the agent will know about its peers before they being operating together in the same open enviornment, but it is especially useful for planning with communication where sent messages linearly expand the action space and received messages **exponentially** expand each agents' observation space.  
 
