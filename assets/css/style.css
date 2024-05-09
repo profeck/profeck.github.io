@@ -1,6 +1,6 @@
 .page-content {
     #background-color: #dddddd;
-    background-image: linear-gradient(to right, #dddddd, white 30%, white 70%, #dddddd);
+    background-image: linear-gradient(to right, #dddddd, white 25%, white 75%, #dddddd);
 }
 
 .post {
