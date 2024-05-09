@@ -7,4 +7,4 @@ title: MOSAEI
 
 **Under construction**
 
-We will describe the MOSAEI contest here.
+Information about the MOSAEI competition will be hosted here in the near future.  Please visit back soon for more information!
