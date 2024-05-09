@@ -7,7 +7,7 @@ To illustrate how the different types of openness in OASYS manifest, consider th
 
 # Robotic Wildfire Suppression
 
-<img src="wildfire.png" class="leftimage" width="60%">
+<img src="wildfire.png" class="leftimage" style="display:block; margin-left:auto; margin-right:auto; width: 60%;">
 
 A team of cooperative firefighting robots are tasked with putting out wildfires of different sizes, in the absence of inter-agent communication or prior coordination. These characteristics are common in disaster areas where communication is not guaranteed, and emergent fast-moving situations could arise leading multiple firefighting teams to partake in the effort without prior coordination.  Agents can have different firefighting capabilities, such as ground firefighters with limited suppressant and helicopters that carry much more suppressant and contribute more to putting out fires but must also recharge more often.
 
