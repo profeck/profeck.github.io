@@ -20,13 +20,13 @@ In this research, we address the challenges to multiagent decision making caused
   <br/>
 </div>
 
---- 
+<br/><hr/><br/> 
 
 ## Project Details
 
 This project is a multi-institution collaboration led by [Prashant Doshi](https://thinc.cs.uga.edu) of the University of Georgia, [Leen-Kiat Soh](http://cse.unl.edu/~lksoh/) of the University of Nebraska-Lincoln, and [Adam Eck](https://cs.oberlin.edu/~aeck) of Oberlin College.  Our work has been supported by two collaborative grants from the National Science Foundation (add details).
 
----
+<br/><hr/><br/>
 
 ## Publications 
 
@@ -40,7 +40,7 @@ More details about our research on OASYS can be found in:
 
 * Chandrasekaran, M., Eck, A., Doshi, P., & Soh, L.-K. 2016. Individual Planning in Open and Typed Agent Systems. Proceedings of the 2016 Conference on Uncertainty in Artificial Intelligence (UAI'16), New York City, NY, June 25-29, 2016. [[link]](http://www.auai.org/uai2016/proceedings/papers/286.pdf)
 
---- 
+<br/><hr/><br/>
 
 ## Implementations
 
