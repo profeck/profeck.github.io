@@ -3,6 +3,8 @@ layout: page
 title: OASYS
 ---
 
+<link type="text/css" rel="stylesheet" href="assets/css/main.css" />
+
 ## Open Agent Systems
 
 In many real-world applications of AI, the set of actors and tasks are not constant, but instead change over time.  Robots tasked with suppressing wildfires eventually run out of limited suppressant resources and need to temporarily disengage from the collaborative work in order to recharge, or they might become damaged and leave the environment permanently.  In a large business organization, objectives and goals change with the market, requiring workers to adapt to perform different sets of tasks across time.  We call these multiagent systems **open agent systems**, and the *openness* of the sets of agents and tasks  necessitates new capabilities and modeling for decision making compared to planning and learning in *closed* environments.
