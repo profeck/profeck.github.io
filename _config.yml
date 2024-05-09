@@ -2,3 +2,9 @@
 theme: minima 
 title: Open Agent Systems (OASYS) 
 description: Multiagent Decision Making in Open Environments
+header_pages:
+  - index.md
+  - openness.md
+  - applications.md
+  - methods.md
+  - mosaei.md

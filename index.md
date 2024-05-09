@@ -3,7 +3,7 @@ layout: page
 title: OASYS
 ---
 
-<link type="text/css" rel="stylesheet" href="assets/css/main.css" />
+<link type="text/css" rel="stylesheet" href="assets/css/style.css" />
 
 ## Open Agent Systems
 
