@@ -15,7 +15,9 @@ Because the exact presence of other agents might not be directly observed by the
 
 [Add text about RL solution]
 
-<br/><hr/><br/>
+<br/>
+<hr/>
+<br/>
 
 # Scalability through Selectively Modeling Neighbors
 
@@ -25,19 +27,27 @@ One of the key challenges to scaling up to many-agent systems is that the **comb
 
 By controlling how many neighbors are modeled, we established error bounds on (1) the population estimates of how many agents will perform each action, and (2) the resulting possible gap between the optimal sequence of actions and the agent's planned actions (i.e., regret).  By modeling just a select subset of the agent's neighbors, a planning agent in an OASYS can mitigate the exponential growth in the number of possible situations it will face while reasoning about the presence of other agents (necessary to address agent openness), especially because the number of neighbors a planning agent must model grows only *logarithmically* with the total number of agents in the many-agent system.
 
-<br/><hr/><br/>
+<br/>
+<hr/>
+<br/>
 
 # Online Planning with MCTS
 
 To complement our selective neighbor modeling, we also developed the first online algorithm for planning in OASYS [(Eck et al., 2020)](https://aaai.org/ojs/index.php/AAAI/article/view/6200), extending the popular POMCP algorithm to open multiagent systems.  Online planning further addresses the additional computational complexity of modeling the presence of neighbors by enabling the agent to make quick decisions about what is appropriate for situations that can result from its current situation, instead of needing to plan for all possible situations as in prior offline planning approaches to OASYS.  Experiment results expand on the theoretical analysis to demonstrate good decision making by planning agents in much larger multiagent systems (with up to 50 agents, an order-of-magnitude more than prior studies).
 
-<br/><hr/><br/>
+<br/>
+<hr/>
+<br/>
 
 # Enhanced Collaboration through Communication
 
 <img src="communication.png" style="display:block; margin-left:auto; margin-right:auto; width: 60%;">
 
 Description
+
+<br/>
+<hr/>
+<br/>
 
 # Fully Online Planning through Nested MCTS
 
