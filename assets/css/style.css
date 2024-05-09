@@ -1,4 +1,4 @@
-.page-content {
+.site-header, .page-content {
     #background-color: #dddddd;
     background-image: linear-gradient(to right, #dddddd, white 25%, white 75%, #dddddd);
 }
