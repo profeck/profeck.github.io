@@ -7,7 +7,7 @@ To illustrate how the different types of openness in OASYS manifest, consider th
 
 # Robotic Wildfire Suppression
 
-<img src="wildfire.png" class="leftimage">
+<img src="wildfire.png" class="leftimage" width="60%">
 
 A team of cooperative firefighting robots are tasked with putting out wildfires of different sizes, in the absence of inter-agent communication or prior coordination. These characteristics are common in disaster areas where communication is not guaranteed, and emergent fast-moving situations could arise leading multiple firefighting teams to partake in the effort without prior coordination.  Agents can have different firefighting capabilities, such as ground firefighters with limited suppressant and helicopters that carry much more suppressant and contribute more to putting out fires but must also recharge more often.
 
@@ -21,7 +21,7 @@ Additionally, this environment can exhibit **task openness** as new fires appear
 
 # Cybersecurity Defense
 
-<img src="cybersecurity.png" class="rightimage">
+<img src="cybersecurity.png" class="rightimage" width="60%">
 
 In this environment, defender agents are tasked with cooperating with one another to monitor the nodes within a computer network and patch vulnerabilities.  At the same time, a separate team of attacker agents instead work to exploit existing vulnerabilities and infect network nodes.  Both teams of agents (attackers and defenders) ultimately compete to gain control of the computer network, earning rewards based on the states of all nodes in the network.  For either team to be successful, its agents benefit from modeling the reasoning of its own team members and its adversaries in order to predict their behaviors and choose actions that are a best response to the expected actions of others.
 
@@ -37,7 +37,7 @@ In this environment, defender agents are tasked with cooperating with one anothe
 
 # Autonomous Ridesharing
 
-<img src="ridesharing.png" class="leftimage">
+<img src="ridesharing.png" class="leftimage" width="60%">
 
 Agents controlling autonomous cars used for ridesharing are tasked with servicing human passengers seeking rides by picking each up from their pickup location and dropping them off at their drop location. Each driver is self-interested in maximizing its own reward for transporting passengers and can be modeled as being present in the environment when it is seeking or dropping off passengers, else they are absent from decision making while not working or have no room to take on new passengers (leading to **agent openness**).
 
@@ -52,7 +52,7 @@ Notably, changes in tasks (i.e., passengers in the system) also cause changes in
 
 # Large Organizations
 
-<img src="organization.png" class="rightimage">
+<img src="organization.png" class="rightimage" width="60%">
 
 A typical business organization features a mix of (a) cooperation for achieving the overall improvement of the organization and (b) competition among individual employees.  Thus, an employee agent may have two sets of (perhaps conflicting) goals to optimize while contending with other employees.  That is, when an employee is involved in a team project, it needs to balance these (potentially conflicting) goals in order to maximize its expected rewards. This adds to the level of complexity not seen in the other three domains.  
 
