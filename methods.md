@@ -3,6 +3,8 @@ layout: page
 title: Methods
 ---
 
+<link type="text/css" rel="stylesheet" href="assets/css/style.css" />
+
 To achieve principled and scalable decision making in OASYS, we have developed the following solutions for multiagent planning and reinforcement learning.
 
 # Modeling Agent Presence

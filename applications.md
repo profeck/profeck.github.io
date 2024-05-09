@@ -3,6 +3,8 @@ layout: page
 title: Applications
 ---
 
+<link type="text/css" rel="stylesheet" href="assets/css/style.css" />
+
 To illustrate how the different types of openness in OASYS manifest, consider the following four real-world applications:
 
 # Robotic Wildfire Suppression
