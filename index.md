@@ -30,7 +30,7 @@ The following video provides a short overview of the problems, challenges, and s
 
 ## Project Details
 
-<img src="" style="float: right; margin: 5px;"/>
+<img src="assets/images/NSF_Official_logo_Med_Res_600ppi.png" style="float: right; margin: 5px;"/>
 
 This project is a multi-institution collaboration led by [Prashant Doshi](https://thinc.cs.uga.edu) of the University of Georgia, [Leen-Kiat Soh](http://cse.unl.edu/~lksoh/) of the University of Nebraska-Lincoln, and [Adam Eck](https://cs.oberlin.edu/~aeck) of Oberlin College.  Our work has been supported by two collaborative grants from the National Science Foundation: NSF [IIS-1910037](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1910037&HistoricalAwards=false), [IIS-1910156](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1910156&HistoricalAwards=false), [IIS-1909513](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1909513&HistoricalAwards=false) and NSF [IIS-2312657](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2312657&HistoricalAwards=false), [IIS-2312658](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2312658&HistoricalAwards=false), [IIS-2312659](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2312659&HistoricalAwards=false).
 
